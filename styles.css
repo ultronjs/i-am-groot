@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+:root{
+    --primary-color:#047857;
+    --secondary-color:#78350F;
+}
+body {
+    font-family: 'Syne Mono', monospace;
+    margin: 0px;
+}
+
+.input-box{
+    display: block;
+    margin: auto;
+    height: 10vh;
+    width: 600px;
+}
+
+.output-box{
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    height: 15vh;
+    width: 600px;
+}
+
+.btn-translate{
+    display: block;
+    margin: auto;
+    font-size: large;
+    padding: 0.5rem 0.5rem;
+    margin-top: 16px;
+    background-color: var(--primary-color);
+}
+header{
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+header h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.output-heading{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    left: 0;right: 0;bottom: 0;
+    text-align: center;
+    background-color: var(--primary-color);
+}
